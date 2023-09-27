@@ -8,6 +8,11 @@
 
 ## Data para el ejemplo
 
+<!-- make link md -->
+
+- [data/jugadores_argentina.csv](./data/jugadores_argentina.csv)
+- [data/jugadores_2022_todos.csv](./data/jugadores_2022_todos.csv)
+
 ```
 
 ./data/jugadores_argentina.csv
