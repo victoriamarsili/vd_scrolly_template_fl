@@ -2,16 +2,13 @@
 
 # Template Scrollytelling con Flourish
 
-## Ejemplo Qatar 2022
+## Ejemplo Selección Argentina Qatar 2022
 
 ![alt text](thumbnail.png)
 
-## Data para el ejemplo
+## Tutorial: Flourish y scrollytelling
 
-<!-- make link md -->
-
-- [data/jugadores_argentina.csv](./data/jugadores_argentina.csv)
-- [data/jugadores_2022_todos.csv](./data/jugadores_2022_todos.csv)
+https://docs.google.com/document/d/1yc-txFDQnT1YIn52p06kRK31aEU7taT9B5GuCiY5rvM/edit
 
 ## Referencias
 
