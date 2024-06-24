@@ -1,0 +1,138 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+video {
+  width: 100vw; /* Ajusta el ancho al 100% del viewport */
+  height: auto;
+  min-width: 100%; /* Asegura que el video ocupe al menos el ancho completo */
+  min-height: 100%; /* Asegura que el video ocupe al menos la altura completa */
+  object-fit: cover;
+  image-rendering: auto;
+}
+
+.content {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #153E69;
+  z-index: 1000;
+}
+
+.content h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif, system-ui, Avenir, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-weight: 1000;
+  text-align: center;
+  width: 100%;
+}
+
+.texto_container {
+  max-width: 800px;
+  padding: 0 20px;
+  margin: auto;
+  margin-bottom: 100px;
+  text-align: left;
+}
+
+.texto_container.lista {
+  margin-bottom: 10px;
+}
+
+.texto_parrafo {
+  margin: 50px auto;
+}
+
+#image-transition {
+  height: 400px;
+  overflow: hidden;
+}
+
+#image-transition img {
+  width: auto;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#conclusion {
+  text-align: center;
+  padding: 50px 20px;
+  max-width: 800px; /* Ajusta el ancho máximo de la conclusión */
+  margin: auto; /* Centra la conclusión horizontalmente */
+}
+
+#video-footer {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#video-footer-content {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #153E69;
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Asegura que los videos no tengan controles visibles */
+video::-webkit-media-controls {
+  display: none;
+}
+
+video::media-controls {
+  display: none;
+}
+
+/* Estilo adicional para los elementos de Flourish */
+.flourish-embed {
+  margin: auto; /* Centra horizontalmente */
+  max-width: 800px; /* Ajusta el ancho máximo */
+  margin-bottom: 50px; /* Espacio inferior */
+}
